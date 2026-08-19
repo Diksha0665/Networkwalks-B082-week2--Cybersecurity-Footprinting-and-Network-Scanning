@@ -46,10 +46,10 @@ This project covers passive and active reconnaissance against the target `networ
   ![whois](whois%20screenshots.png)
 
 * **Extracted Findings & Technical Analysis:**
-*  Registrar: GoDaddy.com,
-*  LLC  Creation Date: 2019-11-06
-*  Registry Expiry Date: 2027-11-06
-*  Name Servers: NS6135.HOSTGATOR.COM, NS6136.HOSTGATOR.COM
-*  Hosting Infrastructure: HostGator infrastructure confirmed via authoritative DNS delegations.  
+  `Registrar: GoDaddy.com`
+  `LLC  Creation Date: 2019-11-06`
+  `Registry Expiry Date: 2027-11-06`
+  `Name Servers: NS6135.HOSTGATOR.COM, NS6136.HOSTGATOR.COM`
+  `Hosting Infrastructure: HostGator infrastructure confirmed via authoritative DNS delegations` 
 
 
