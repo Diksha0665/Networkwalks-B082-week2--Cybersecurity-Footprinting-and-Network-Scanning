@@ -35,3 +35,7 @@ This project covers passive and active reconnaissance against the target `networ
 * **Command:**
   ```bash
   whois networkwalks.com
+  ```
+
+### Legal and Ethical Notice
+All activities, commands, and tests documented in this report were conducted strictly in a controlled, sandboxed lab environment for authorized training purposes[cite: 1]. Unauthorized network scanning, port probing, or vulnerability assessment against systems without written permission is strictly prohibited under applicable cyber laws
