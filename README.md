@@ -43,6 +43,6 @@ This project covers passive and active reconnaissance against the target `networ
   ```bash
   whois networkwalks.com
   ```
-  ![whois]()
+  ![whois](whois%20screenshots.png)
 
 
