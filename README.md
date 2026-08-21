@@ -76,7 +76,7 @@ nslookup networkwalks.com
 
 ![Task 3 - NSLookup Output](nslookup.png)
 
-Findings:
+#### Findings:
 DNS Server Queried: 8.8.8.8#53 
 Resolved IP Address: 192.232.216.135  
 
@@ -86,6 +86,22 @@ Command:
 ```bash
 curl -I [https://networkwalks.com](https://networkwalks.com)
 ```
-![Task 3 - NSLookup Output]()
+![Task 3 - NSLookup Output](curl%20-I.png)
+
+#### Findings:
+HTTP Status: HTTP/2 200
+Server: Apache  
+Caching Layer: x-nginx-cache: WordPress, x-endurance-cache-level: 0  
+REST API Discovered: WordPress API endpoint exposed at /wp-json/ 
+Cookie Flags: Set-Cookie: __wpdm_client; HttpOnly; secure
+
+Task 5: Web Application Firewall Detection (wafw00f)
+Objective: Detect whether a Web Application Firewall (WAF) is protecting the target site. 
+Command:
+```bash
+wafw00f networkwalks.com
+```
+
+
 
 
