@@ -205,4 +205,8 @@ your local LAN subnet:
 * ### My PDF Report on Zenmap
 [View Zenmap Report](NetworkWalks_Week2_PM5_Zenmap_Scanning_Lab_Report.pdf)
 
-
+## **What I Learned**
+* **Passive & Active Reconnaissance Synergy**: Footprinting and network scanning form a continuous intelligence loop — passive tools (whois, nslookup, curl) map an organization's public footprint from the outside without touching target defenses, while active utilities (wafw00f, dnsrecon, Zenmap/Nmap) probe network perimeters and live hosts directly. 
+* **Tool Redundancy & Cross-Validation**: No single tool is indispensable. When one tool provides limited or filtered output, combining multiple utilities (whatweb alongside curl -I and dnsrecon) still extracts the complete web stack, caching reverse-proxies, and server banners. 
+* **Deep Target Profiling from a Single Domain**: Starting with only networkwalks.com, I was able to systematically reconstruct the entire digital asset inventory — discovering the resolved IP (192.232.216.135), registrar metadata, HostGator hosting architecture, WordPress CMS components, exposed /wp-json/ REST endpoints, and active ModSecurity WAF protection. 
+* **Real-World Network Discovery Dynamics**: Live networks differ significantly from isolated lab setups. Running Zenmap ping scans across my local subnet (192.168.56.0/24) accurately isolated my host adapter (MSI Thin 15 at 192.168.56.1), while home network scans revealed modern defense mechanisms in action — such as client devices utilizing private MAC address randomization to obscure hardware vendors.  
