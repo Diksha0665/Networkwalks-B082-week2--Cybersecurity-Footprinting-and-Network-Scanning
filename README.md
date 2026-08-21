@@ -182,5 +182,10 @@ nmap -sn 192.168.56.0/24
 
 ![task 1](Zenmap%20install.png)
 
-![task 1](Zenmap%20install.png)
+![task 2](running.png)
 
+### Find your local IP address & your LAN subnet:
+
+Open CMD & run ipconfig command to find your PC’s local IP address &
+your local LAN subnet:
+![task 3](running.png)
