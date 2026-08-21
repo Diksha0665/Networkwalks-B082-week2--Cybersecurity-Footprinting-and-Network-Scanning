@@ -115,6 +115,7 @@ wafw00f networkwalks.com
 ```bash
 dnsrecon -d networkwalks.com
 ```
+![Task 5 - wafW00f](wafW00f.png)
 
 
 
