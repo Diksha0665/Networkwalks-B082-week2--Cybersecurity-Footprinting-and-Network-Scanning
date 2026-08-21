@@ -188,4 +188,10 @@ nmap -sn 192.168.56.0/24
 
 Open CMD & run ipconfig command to find your PC’s local IP address &
 your local LAN subnet:
-![task 3](running.png)
+![task 3](command%20prompt.png)
+
+### Find the list of live hosts/PC’s in your IP subnet:
+
+Open Zenmap, input the local LAN subnet & select Ping Scan to find the list of
+live hosts in your subnet:
+![task 4](command%20prompt.png)
