@@ -8,9 +8,11 @@ Performing Footprinting and Network scanning on isolated VM and on Authorised Co
 > **Target:** `networkwalks.com`  
 
 ---
+## ⚖️ Legal and Ethical Notice
+All activities were performed strictly under explicit written authorization and for educational purposes against authorized target lab infrastructure[cite: 1, 2]. Unauthorized access, probing, or scanning of computer networks without documented permission is illegal.
+📄 **Authorization Document:** 
+[View Permission Letter (PDF)](W2-PM-Sample%20Permission%20Letter%20v1.pdf)
 
-## Legal and Ethical Notice
-All activities, commands, and tests documented in this report were conducted strictly in a controlled, sandboxed lab environment for authorized training purposes. Unauthorized network scanning, port probing, or vulnerability assessment against systems without written permission is strictly prohibited under applicable cyber laws
 
 
 ## Liability Disclaimer
@@ -151,10 +153,7 @@ DNS Version Suppression: Configure BIND configuration (named.conf) with version 
 
 WAF Rule Optimization: Regularly update ModSecurity OWASP Core Rule Sets (CRS) to prevent bypasses against active plugins.
 
-## ⚖️ Legal and Ethical Notice
-All activities were performed strictly under explicit written authorization and for educational purposes against authorized target lab infrastructure[cite: 1, 2]. Unauthorized access, probing, or scanning of computer networks without documented permission is illegal.
-📄 **Authorization Document:** 
-[View Permission Letter (PDF)](W2-PM-Sample%20Permission%20Letter%20v1.pdf)
+
 
 
 ## My PDF Report Writing Of footprinting
