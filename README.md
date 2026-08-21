@@ -46,11 +46,11 @@ This project covers passive and active reconnaissance against the target `networ
   ![whois](whois%20screenshots.png)
 
 * **Extracted Findings & Technical Analysis:**
- * **`Registrar: GoDaddy.com`**
- * **`LLC  Creation Date: 2019-11-06`**
- * **`Registry Expiry Date: 2027-11-06`**
- * **`Name Servers: NS6135.HOSTGATOR.COM, NS6136.HOSTGATOR.COM`**
- * **`Hosting Infrastructure: HostGator infrastructure confirmed via authoritative DNS delegations`**
+ * **Registrar:** GoDaddy.com
+ * **LLC  Creation Date:** 2019-11-06
+ * **Registry Expiry Date:** 2027-11-06
+ * **Name Servers:** NS6135.HOSTGATOR.COM, NS6136.HOSTGATOR.COM
+ * **Hosting Infrastructure:** HostGator infrastructure confirmed via authoritative DNS delegations
 
 ### Task 2: Web Technology Fingerprinting (`whatweb`)
 * **Objective:** Identify underlying web application architecture, CMS components, libraries, and hosting indicators.
@@ -60,12 +60,20 @@ This project covers passive and active reconnaissance against the target `networ
   ```
  ![whatweb](whatweb.png)
 
- Findings:
- Target IP: 192.232.216.135 
- Web Server: Apache
- CMS & Plugins: WordPress 7.0.4, WordPress Download Manager 3.3.58 
- Libraries & Frameworks: Bootstrap 7.0.4, jQuery 3.7.1, HTML5 
- Email Contact: info@networkwalks.com
-  
+ #### Findings:
+ * Target IP: 192.232.216.135 
+ * Web Server: Apache
+ * CMS & Plugins: WordPress 7.0.4, WordPress Download Manager 3.3.58 
+ * Libraries & Frameworks: Bootstrap 7.0.4, jQuery 3.7.1, HTML5 
+ * Email Contact: info@networkwalks.com
+
+### Task 3: DNS Name Resolution (nslookup)
+* Objective: Resolve domain name to its direct IP address via DNS lookup.
+Command:
+```bash
+nslookup networkwalks.com
+```
+
+![Task 3 - NSLookup Output]()
 
 
