@@ -178,23 +178,28 @@ nmap -sn 192.168.56.0/24
 | :--- | :--- | :--- |
 | `192.168.56.1` | `(Host interface)` | My laptop — MSI Thin 15 (from `ipconfig /all`) |
 
-#### Zenmap installed and running on Windows
+* #### Zenmap installed and running on Windows
 
 ![task 1](Zenmap%20install.png)
 
 ![task 2](running.png)
 
-### Find your local IP address & your LAN subnet:
 
-Open CMD & run ipconfig command to find your PC’s local IP address &
-your local LAN subnet:
-![task 3](scanning.png)
 
-### Find the list of live hosts/PC’s in your IP subnet:
+Find the list of live hosts/PC’s in your IP subnet:
 
 Open Zenmap, input the local LAN subnet & select Ping Scan to find the list of
 live hosts in your subnet:
-![task 4](command%20prompt.png)
+![task 3](command%20prompt.png)
 
-### Display & save the output topology in PDF Format on your desktop:
+* ### Find the list of live hosts/PC’s in your IP subnet:
 
+Open CMD & run ipconfig command to find your PC’s local IP address &
+your local LAN subnet:
+![task 4](scanning.png)
+
+* ### Display & save the output topology in PDF Format on your desktop:
+
+![task 5](topology.png)
+
+### My PDF Report on Zenmap
