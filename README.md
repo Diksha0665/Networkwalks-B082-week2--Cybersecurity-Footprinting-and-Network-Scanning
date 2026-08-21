@@ -180,7 +180,7 @@ nmap -sn 192.168.56.0/24
 
 #### Zenmap installed and running on Windows
 
+![task 1](Zenmap%20install.png)
 
-
-
+![task 1](Zenmap%20install.png)
 
