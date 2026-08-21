@@ -157,7 +157,30 @@ All activities were performed strictly under explicit written authorization and 
 [View Permission Letter (PDF)](W2-PM-Sample%20Permission%20Letter%20v1.pdf)
 
 
-## My PDF Report Writing
+## My PDF Report Writing Of footprinting
 [View Footprinting Report](NetworkWalks_Week2_Reconnaissance_Lab_Report.pdf)
+
+
+## Overview of PM5 — Network Scanning with Zenmap
+The goal was to find the live devices on my own home network, along with their IP and MAC addresses, and save a network topology.
+
+Zenmap is no longer available on modern Kali Linux (it depends on deprecated Python 2), so I installed the official Nmap + Zenmap package on Windows and scanned my own LAN from there.
+
+Scan command:
+```bash
+nmap -sn 192.168.56.0/24
+```
+(a ping scan — finds live hosts, no port scanning)
+
+#### * Result — 1 hosts live:
+
+| IP | MAC | Device |
+| :--- | :--- | :--- |
+| `192.168.56.1` | `(Host interface)` | My laptop — MSI Thin 15 (from `ipconfig /all`) |
+
+#### Zenmap installed and running on Windows
+
+
+
 
 
