@@ -196,4 +196,5 @@ Open Zenmap, input the local LAN subnet & select Ping Scan to find the list of
 live hosts in your subnet:
 ![task 4](command%20prompt.png)
 
-### 
+### Display & save the output topology in PDF Format on your desktop:
+
