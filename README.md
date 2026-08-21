@@ -58,7 +58,14 @@ This project covers passive and active reconnaissance against the target `networ
   ```bash
   whatweb example.com
   ```
- ![whois]()
+ ![whatweb](whatweb.png)
+
+ Findings:
+ Target IP: 192.232.216.135 
+ Web Server: Apache
+ CMS & Plugins: WordPress 7.0.4, WordPress Download Manager 3.3.58 
+ Libraries & Frameworks: Bootstrap 7.0.4, jQuery 3.7.1, HTML5 
+ Email Contact: info@networkwalks.com
   
 
 
