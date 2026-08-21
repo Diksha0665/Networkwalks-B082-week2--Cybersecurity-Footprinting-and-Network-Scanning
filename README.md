@@ -74,6 +74,18 @@ Command:
 nslookup networkwalks.com
 ```
 
+![Task 3 - NSLookup Output](nslookup.png)
+
+Findings:
+DNS Server Queried: 8.8.8.8#53 
+Resolved IP Address: 192.232.216.135  
+
+Task 4: HTTP Response Headers (curl)
+Objective: Read the HTTP response headers to see the server banner, status, cookies, and redirects. 
+Command:
+```bash
+curl -I [https://networkwalks.com](https://networkwalks.com)
+```
 ![Task 3 - NSLookup Output]()
 
 
