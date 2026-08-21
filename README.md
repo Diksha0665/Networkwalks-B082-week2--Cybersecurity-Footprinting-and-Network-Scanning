@@ -151,4 +151,7 @@ DNS Version Suppression: Configure BIND configuration (named.conf) with version 
 WAF Rule Optimization: Regularly update ModSecurity OWASP Core Rule Sets (CRS) to prevent bypasses against active plugins.
 
 
+📄 **Authorization Document:** 
+[View Permission Letter (PDF)](W2-PM-Sample%20Permission%20Letter%20v1.pdf)
+
 
