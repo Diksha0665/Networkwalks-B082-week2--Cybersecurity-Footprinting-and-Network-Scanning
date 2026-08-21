@@ -157,3 +157,7 @@ All activities were performed strictly under explicit written authorization and 
 [View Permission Letter (PDF)](W2-PM-Sample%20Permission%20Letter%20v1.pdf)
 
 
+## My PDF Report Writing
+[View Footprinting Report](W2-PM-Sample%20Permission%20Letter%20v1.pdf)
+
+
