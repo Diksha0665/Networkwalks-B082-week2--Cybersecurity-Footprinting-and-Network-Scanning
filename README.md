@@ -203,3 +203,4 @@ your local LAN subnet:
 ![task 5](topology.png)
 
 ### My PDF Report on Zenmap
+[View Zenmap Report](NetworkWalks_Week2_Reconnaissance_Lab_Report.pdf)
