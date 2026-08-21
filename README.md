@@ -16,7 +16,7 @@ All activities, commands, and tests documented in this report were conducted str
 ## Liability Disclaimer
 This report is published strictly for educational and research purposes[cite: 1]. The author and affiliated institutions assume no liability or responsibility for any misuse, damage, or legal consequences resulting from the application of the tools and methodologies demonstrated.
 
-##  Overview
+##  Overview of Footprinting with 6 Tools
 Reconnaissance (footprinting) is the first step in any attack or security assessment. An attacker collects public information about a target—such as domain ownership, IP address, hosting provider, running software, DNS records, and firewalls—without the target knowing it is being studied. 
 
 This project covers passive and active reconnaissance against the target `networkwalks.com` using six Kali Linux tools.
