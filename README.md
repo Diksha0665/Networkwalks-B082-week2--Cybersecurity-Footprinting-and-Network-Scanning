@@ -1,10 +1,10 @@
 # Networkwalks-B082-week2--Cybersecurity-Footprinting-and-Network-Scanning
 Performing Footprinting and Network scanning on isolated VM and on Authorised Company 
-# 🛡️ Cybersecurity: Footprinting and Reconnaissance
+# 🛡️ Cybersecurity: Footprinting and Network Scanning
 
 > **Program:** NetworkWalks Cyber Security Training & Internship  
 > **Batch:** B082 — Week 2 | Project Module 1 (W2-PM1)  
-> **Author:** Diksha ([@Diksha0665](https://github.com/Diksha0665))  
+> **Author:** Diksha Raul ([@Diksha0665](https://github.com/Diksha0665))  
 > **Target:** `networkwalks.com`  
 
 ---
